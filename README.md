@@ -42,7 +42,7 @@ int main()
         switch(opcion)
         {
             case 1:
-            for (i=0;i<2;i++)
+            for (i=0;i<3;i++)
         {
             cout<<"nombre del paciente"<<endl;
             cin>>cita[i].nombre;
@@ -108,7 +108,7 @@ int main()
             
             break;
             case 4:
-            for(i=0;i<2;i++)
+            for(i=0;i<3;i++)
         { 
            cout<<"numero cita: "<<i+1<<endl;
              cout<<cita[i].nombre<<endl;
